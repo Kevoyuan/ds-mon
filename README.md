@@ -38,6 +38,15 @@ A small, quiet presence in your macOS menu bar.
 - **Customizable** -- icon, text, color, size, weight -- make it yours
 - **One whale** -- a hand-drawn mascot rendered with gradient curves and water spouts, because details matter
 
+<p align="center">
+  <img src="Sources/ds-mon/Resources/ds-mon0.png" width="400" alt="Screenshot 1" />
+  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="400" alt="Screenshot 2" />
+</p>
+<p align="center">
+  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="400" alt="Screenshot 3" />
+  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="400" alt="Screenshot 4" />
+</p>
+
 ---
 
 ## Get started

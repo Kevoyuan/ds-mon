@@ -38,6 +38,15 @@
 - **高度自定义** -- 图标、文字、颜色、大小、字重，随心所欲
 - **一条鲸鱼** -- 手绘风格的渐变小鲸，带水柱动画，因为细节值得
 
+<p align="center">
+  <img src="Sources/ds-mon/Resources/ds-mon0.png" width="400" alt="Screenshot 1" />
+  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="400" alt="Screenshot 2" />
+</p>
+<p align="center">
+  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="400" alt="Screenshot 3" />
+  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="400" alt="Screenshot 4" />
+</p>
+
 ---
 
 ## 开始使用
