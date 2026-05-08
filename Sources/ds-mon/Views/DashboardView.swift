@@ -35,7 +35,7 @@ struct DashboardView: View {
                 }
 
                 VStack(spacing: 12) {
-                    TextField("sk-...", text: Binding(
+                    SecureField("API Key (sk-...)", text: Binding(
                         get: { vm.onboardingKey },
                         set: { vm.onboardingKey = $0 }
                     ))
