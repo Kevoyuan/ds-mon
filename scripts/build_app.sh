@@ -39,7 +39,7 @@ cp "Sources/ds-mon/Info.plist" "${APP_DIR}/Contents/Info.plist"
 RESOURCE_BUNDLE=$(find "${BUILD_DIR}" -name "*.bundle" -type d | head -n 1)
 if [ -n "$RESOURCE_BUNDLE" ]; then
     echo "📦 拷贝资源 Bundle: $(basename "$RESOURCE_BUNDLE")"
-    cp -R "$RESOURCE_BUNDLE/" "${APP_DIR}/Contents/Resources/"
+    cp -R "$RESOURCE_BUNDLE" "${APP_DIR}/Contents/Resources/"
 fi
 
 # 6. (可选) 签名 - 这里的签名只是 ad-hoc 签名，为了能在本地运行
