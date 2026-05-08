@@ -56,9 +56,13 @@ A small, quiet presence in your macOS menu bar.
 1. Go to the **[Releases](https://github.com/Kevoyuan/ds-mon/releases)** page.
 2. Download the latest `ds-mon.zip` and extract it.
 3. Drag `DeepSeek Monitor.app` into your **Applications** folder.
-4. **Important**: Since the app is not signed by Apple, you may see a "developer cannot be verified" warning.
+4. **Important**: Since the app is not signed by Apple, you may see a "developer cannot be verified" warning or it might fail to open.
    - Locate the app in your `Applications` folder, **Right-click** it, and select **Open**.
    - Click **Open** again in the dialog to confirm.
+   - **If it still doesn't open or says the app is damaged**, open your `Terminal` and run:
+     ```bash
+     xattr -cr "/Applications/DeepSeek Monitor.app"
+     ```
 
 ### 🛠️ Option 2: Build from Source
 

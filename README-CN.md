@@ -56,9 +56,13 @@
 1. 前往 **[Releases](https://github.com/Kevoyuan/ds-mon/releases)** 页面。
 2. 下载最新的 `ds-mon.zip` 并解压。
 3. 将 `DeepSeek Monitor.app` 拖入你的 **应用程序 (Applications)** 文件夹。
-4. **重要**：由于应用未经过 Apple 签名，首次打开时可能会提示“无法验证开发者”。
+4. **重要**：由于应用未经过 Apple 签名，首次打开时可能会提示“无法验证开发者”或者点击“打开”后没有反应。
    - 请在 `应用程序` 文件夹中找到它，**右键点击**应用，选择 **打开**。
    - 在弹出的对话框中再次点击 **打开** 即可。
+   - **如果仍然无法打开或提示应用已损坏**，请打开 `终端 (Terminal)` 并运行以下命令：
+     ```bash
+     xattr -cr "/Applications/DeepSeek Monitor.app"
+     ```
 
 ### 🛠️ 方式二：从源码构建
 
