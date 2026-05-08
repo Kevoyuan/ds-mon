@@ -6,17 +6,18 @@ set -e
 APP_NAME="DeepSeek Monitor"
 BINARY_NAME="ds-mon"
 BUNDLE_ID="com.yuan.ds-mon"
-BUILD_DIR=".build/release"
-# Xcode 16+ uses XCBuild which places the binary in a different location
-if [ -d ".build/apple/Products/Release" ]; then
-    BUILD_DIR=".build/apple/Products/Release"
-fi
 APP_DIR="dist/${APP_NAME}.app"
 
 echo "🚀 开始构建 ${APP_NAME}..."
 
 # 1. 编译
 swift build -c release --arch arm64 --arch x86_64
+
+# Xcode 16+ uses XCBuild which places the binary in a different location
+BUILD_DIR=".build/release"
+if [ -d ".build/apple/Products/Release" ]; then
+    BUILD_DIR=".build/apple/Products/Release"
+fi
 
 # 2. 创建目录结构
 echo "📂 创建 .app 目录结构..."
