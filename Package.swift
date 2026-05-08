@@ -9,6 +9,7 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "ds-mon",
+            exclude: ["Info.plist"],
             resources: [
                 .process("Resources")
             ]

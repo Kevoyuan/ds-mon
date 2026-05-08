@@ -7,6 +7,10 @@ APP_NAME="DeepSeek Monitor"
 BINARY_NAME="ds-mon"
 BUNDLE_ID="com.yuan.ds-mon"
 BUILD_DIR=".build/release"
+# Xcode 16+ uses XCBuild which places the binary in a different location
+if [ -d ".build/apple/Products/Release" ]; then
+    BUILD_DIR=".build/apple/Products/Release"
+fi
 APP_DIR="dist/${APP_NAME}.app"
 
 echo "🚀 开始构建 ${APP_NAME}..."
@@ -26,7 +30,7 @@ cp "${BUILD_DIR}/${BINARY_NAME}" "${APP_DIR}/Contents/MacOS/"
 
 # 4. 拷贝 Info.plist
 echo "📄 拷贝 Info.plist..."
-cp "Sources/ds-mon/Resources/Info.plist" "${APP_DIR}/Contents/Info.plist"
+cp "Sources/ds-mon/Info.plist" "${APP_DIR}/Contents/Info.plist"
 
 # 5. 处理资源文件
 # Swift Package Manager 会将资源放在 .resources 目录下
