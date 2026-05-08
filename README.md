@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Sources/ds-mon/Resources/deepseek-whale-official.png" width="120" alt="DeepSeek Whale" />
+  <img src="Sources/ds-mon/Resources/ds-mon.png" width="180" alt="DeepSeek Whale" />
 </p>
 
 <h1 align="center">DeepSeek Monitor</h1>
