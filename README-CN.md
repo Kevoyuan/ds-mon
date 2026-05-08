@@ -44,7 +44,7 @@
 
 ### 📥 方式一：下载预编译版本 (推荐)
 
-1. 前往 **[Releases](https://github.com/yourname/ds-mon/releases)** 页面。
+1. 前往 **[Releases](https://github.com/Kevoyuan/ds-mon/releases)** 页面。
 2. 下载最新的 `ds-mon.zip` 并解压。
 3. 将 `DeepSeek Monitor.app` 拖入你的 **应用程序 (Applications)** 文件夹。
 4. **重要**：由于应用未经过 Apple 签名，首次打开时可能会提示“无法验证开发者”。
@@ -56,7 +56,7 @@
 如果你是开发者，可以手动构建：
 
 ```bash
-git clone https://github.com/yourname/ds-mon.git
+git clone https://github.com/Kevoyuan/ds-mon.git
 cd ds-mon
 ./scripts/build_app.sh
 ```

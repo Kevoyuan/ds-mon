@@ -44,7 +44,7 @@ A small, quiet presence in your macOS menu bar.
 
 ### 📥 Option 1: Download Pre-compiled Version (Recommended)
 
-1. Go to the **[Releases](https://github.com/yourname/ds-mon/releases)** page.
+1. Go to the **[Releases](https://github.com/Kevoyuan/ds-mon/releases)** page.
 2. Download the latest `ds-mon.zip` and extract it.
 3. Drag `DeepSeek Monitor.app` into your **Applications** folder.
 4. **Important**: Since the app is not signed by Apple, you may see a "developer cannot be verified" warning.
@@ -56,7 +56,7 @@ A small, quiet presence in your macOS menu bar.
 If you are a developer, you can build it manually:
 
 ```bash
-git clone https://github.com/yourname/ds-mon.git
+git clone https://github.com/Kevoyuan/ds-mon.git
 cd ds-mon
 ./scripts/build_app.sh
 ```
