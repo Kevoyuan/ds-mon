@@ -42,15 +42,11 @@
   <img src="Sources/ds-mon/Resources/ds-mon0.png" width="360" alt="菜单栏余额截图" />
 </p>
 
-<table>
-  <tr>
-    <td><img src="Sources/ds-mon/Resources/ds-mon1.png" width="280" alt="仪表盘截图" /></td>
-    <td><img src="Sources/ds-mon/Resources/ds-mon2.png" width="280" alt="API 设置截图" /></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="Sources/ds-mon/Resources/ds-mon3.png" width="280" alt="菜单栏设置截图" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="220" alt="仪表盘截图" />
+  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="220" alt="API 设置截图" />
+  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="220" alt="菜单栏设置截图" />
+</p>
 
 ---
 
