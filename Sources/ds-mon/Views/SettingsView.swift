@@ -20,8 +20,8 @@ struct SettingsView: View {
     @AppStorage("menuBarTextColorHex") private var menuBarTextColorHex = "#FFFFFF"
     @AppStorage("menuBarIconOpacity") private var menuBarIconOpacity = 1.0
     @AppStorage("menuBarTextOpacity") private var menuBarTextOpacity = 1.0
-    @AppStorage("menuBarIconSize") private var menuBarIconSize = 14.0
-    @AppStorage("menuBarTextSize") private var menuBarTextSize = 9.0
+    @AppStorage("menuBarIconSize") private var menuBarIconSize = 20.0
+    @AppStorage("menuBarTextSize") private var menuBarTextSize = 14.0
     @AppStorage("menuBarTextWeight") private var menuBarTextWeight = MenuBarFontWeight.semibold.rawValue
     @AppStorage("balanceRefreshIntervalSeconds") private var balanceRefreshIntervalSeconds = 60.0
 
@@ -498,8 +498,8 @@ struct SettingsView: View {
         menuBarTextColorHex = "#FFFFFF"
         menuBarIconOpacity = 1
         menuBarTextOpacity = 1
-        menuBarIconSize = 14
-        menuBarTextSize = 9
+        menuBarIconSize = 20
+        menuBarTextSize = 14
         menuBarTextWeight = MenuBarFontWeight.semibold.rawValue
     }
 

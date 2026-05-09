@@ -111,8 +111,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
             .withAlphaComponent(defaults.object(forKey: "menuBarIconOpacity") as? Double ?? 1)
         let textColor = NSColor(Color(hex: defaults.string(forKey: "menuBarTextColorHex") ?? "#FFFFFF"))
             .withAlphaComponent(defaults.object(forKey: "menuBarTextOpacity") as? Double ?? 1)
-        let iconSize = defaults.object(forKey: "menuBarIconSize") as? Double ?? 14
-        let textSize = defaults.object(forKey: "menuBarTextSize") as? Double ?? 9
+        let iconSize = defaults.object(forKey: "menuBarIconSize") as? Double ?? 20
+        let textSize = defaults.object(forKey: "menuBarTextSize") as? Double ?? 14
         let textWeight = MenuBarFontWeight(rawValue: defaults.string(forKey: "menuBarTextWeight") ?? "")
             ?? .semibold
 

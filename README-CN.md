@@ -39,12 +39,13 @@
 - **一条鲸鱼** -- 手绘风格的渐变小鲸，带水柱动画，因为细节值得
 
 <p align="center">
-  <img src="Sources/ds-mon/Resources/ds-mon0.png" width="400" alt="Screenshot 1" />
-  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="400" alt="Screenshot 2" />
+  <img src="Sources/ds-mon/Resources/ds-mon0.png" width="420" alt="菜单栏余额截图" />
 </p>
+
 <p align="center">
-  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="400" alt="Screenshot 3" />
-  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="400" alt="Screenshot 4" />
+  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="300" alt="设置截图 1" />
+  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="300" alt="设置截图 2" />
+  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="300" alt="设置截图 3" />
 </p>
 
 ---
