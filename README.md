@@ -43,9 +43,9 @@ A small, quiet presence in your macOS menu bar.
 </p>
 
 <p align="center">
-  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="220" alt="Dashboard screenshot" />
-  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="220" alt="API settings screenshot" />
-  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="220" alt="Menu bar settings screenshot" />
+  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="240" alt="Dashboard screenshot" />
+  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="240" alt="API settings screenshot" />
+  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="240" alt="Menu bar settings screenshot" />
 </p>
 
 ---

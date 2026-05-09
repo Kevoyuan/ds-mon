@@ -43,9 +43,9 @@
 </p>
 
 <p align="center">
-  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="220" alt="仪表盘截图" />
-  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="220" alt="API 设置截图" />
-  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="220" alt="菜单栏设置截图" />
+  <img src="Sources/ds-mon/Resources/ds-mon1.png" width="240" alt="仪表盘截图" />
+  <img src="Sources/ds-mon/Resources/ds-mon2.png" width="240" alt="API 设置截图" />
+  <img src="Sources/ds-mon/Resources/ds-mon3.png" width="240" alt="菜单栏设置截图" />
 </p>
 
 ---
