@@ -20,6 +20,13 @@
 
 ---
 
+## 最新版本
+
+- 当前稳定版：**v1.0.5**
+- 下载地址：**[GitHub Releases](https://github.com/Kevoyuan/ds-mon/releases)**
+
+---
+
 ## 为什么做这个
 
 你每天都在用 DeepSeek。剩余多少额度，不该是个需要打开浏览器、跑脚本、专门去看的事情。

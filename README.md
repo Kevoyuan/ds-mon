@@ -20,6 +20,13 @@
 
 ---
 
+## Latest Release
+
+- Current stable version: **v1.0.5**
+- Download: **[GitHub Releases](https://github.com/Kevoyuan/ds-mon/releases)**
+
+---
+
 ## Why
 
 You use DeepSeek every day. You should know how much credit is left -- without opening a browser, without running a script, without thinking about it.
