@@ -9,7 +9,7 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "ds-mon",
-            exclude: ["Info.plist"],
+            exclude: ["Info.plist", "Resources/AppIcon.icns"],
             resources: [
                 .process("Resources")
             ]

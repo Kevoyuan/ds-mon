@@ -34,9 +34,10 @@ A small, quiet presence in your macOS menu bar.
 
 - **Balance at a glance** -- your remaining DeepSeek credit, always visible
 - **Auto-refresh** -- configurable from 15 seconds to whenever you like
+- **Flip animation** -- balance changes roll smoothly in the menu bar
 - **Secure** -- API key stored in macOS Keychain, never in a file
 - **Customizable** -- icon, text, color, size, weight -- make it yours
-- **One whale** -- a hand-drawn mascot rendered with gradient curves and water spouts, because details matter
+- **One whale** -- a hand-drawn gradient mascot in the app, plus a crisp menu bar icon for daily use
 
 <p align="center">
   <img src="Sources/ds-mon/Resources/ds-mon0.png" width="360" alt="Menu bar balance screenshot" />

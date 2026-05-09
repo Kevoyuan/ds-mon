@@ -41,6 +41,7 @@ if [ -n "$RESOURCE_BUNDLE" ]; then
     echo "📦 拷贝资源 Bundle: $(basename "$RESOURCE_BUNDLE")"
     cp -R "$RESOURCE_BUNDLE" "${APP_DIR}/Contents/Resources/"
 fi
+cp "Sources/ds-mon/Resources/AppIcon.icns" "${APP_DIR}/Contents/Resources/AppIcon.icns"
 
 # 6. (可选) 签名 - 这里的签名只是 ad-hoc 签名，为了能在本地运行
 # 如果没有开发者证书，外发的包可能需要用户手动允许
